@@ -1,0 +1,26 @@
+public class Mod
+{
+public static void main(String args[])
+ {
+     for(int num= 100; num<=999;num++)
+     {
+     if(num %47==0)
+     {
+         //numCopy
+         int numCopy = num;
+         System.out.println(numCopy);
+         int result =0;
+         result = numCopy /100;
+         System.out.println(result);
+         numCopy = numCopy % 100;
+         result = numCopy /10;
+         System.out.println(result);
+         numCopy = numCopy % 10;
+         result = numCopy /1;
+         System.out.println(result);
+         System.out.println("**********");
+         
+     }
+     }
+ }
+}
