@@ -1,0 +1,27 @@
+public class Palindrome
+{
+    public static void main(String args[])
+    {
+        String s1 =new String("NAVAN");
+        String s2 = new String("");
+        s1 = s1.toUpperCase();
+        s2.toUpperCase();
+        int lh= s1.length();
+        
+        for(int x=lh-1; x>-1; x--)
+        {
+        s2 = s2 + s1.charAt(x);
+        }
+        
+        if((s1).equals(s2))
+        {
+            System.out.println(s1 + " is a palindrome");
+        }
+        else
+        {
+            System.out.println(s1 + " is NOT a palindrome");
+        }
+        
+        
+    }
+}
