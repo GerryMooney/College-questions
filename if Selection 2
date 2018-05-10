@@ -1,0 +1,37 @@
+public class Selection2
+{
+public static void main(String args[])
+ {
+     char vehicle = 'm';
+     /*
+      c = 2.00;
+      m = 1.10;
+      b = 4.25;
+      t = 6.70;
+      v = 4.00;
+      */ 
+      
+      if(vehicle == 'c')
+      {
+          System.out.println("Car - 2.00");
+      }
+      
+      if(vehicle == 'm')
+      {
+          System.out.println("Motorbike - 1.10");
+      }
+      if(vehicle == 'b')
+      {
+          System.out.println("Bus - 4.25");
+      }
+      if(vehicle == 't')
+      {
+          System.out.println("Truck - 6.70");
+      }
+      if(vehicle == 'v')
+      {
+          System.out.println("Van - 4.00");
+      }
+ }
+ 
+ }
