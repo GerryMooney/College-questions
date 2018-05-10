@@ -1,0 +1,28 @@
+public class DoWhile
+{
+    public static void main(String args[])
+    {
+        
+        boolean flag = true;
+        int num = 13; //initialisation
+        int num2 =2;
+        do
+        {     
+            if(num%num2==0)
+            {
+                flag = false;
+            }
+            
+            num2++;
+            
+        } while(num2<num);
+           if (flag==true)
+           {
+        System.out.println(num + " is a prime number");
+         }
+        else
+        {
+     System.out.println(num+ " is NOT a prime number"); 
+}
+}
+}
