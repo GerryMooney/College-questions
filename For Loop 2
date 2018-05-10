@@ -1,0 +1,21 @@
+public class ForLoop
+{
+    public static void main(String args[])
+    {
+        int sum =0;
+        int y= 0;
+        int s=0;
+        
+        for(int x=1;x<=100;x++)
+        {
+            if(x%13==0){
+                 y+=x;
+                 
+             }
+             
+            s+= x*x;
+         }
+         
+         System.out.println("The sum of all numbers divisible by 13 is " + y);
+         System.out.println("The sum of all squares is " +s);    }
+}
