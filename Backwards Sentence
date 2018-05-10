@@ -1,0 +1,25 @@
+public class Backwards
+{
+    public static void main(String args[]) 
+    {
+        String sentence= new String("pay no attention to that man behind the curtain");
+        String s1=(sentence.substring(0,3));
+        String s2=(sentence.substring(4,6));
+        String s3=(sentence.substring(7,16));
+        String s4=(sentence.substring(17,19));
+        String s5=(sentence.substring(20,24));
+        String s6=(sentence.substring(25,28));
+        String s7=(sentence.substring(29,35));
+        String s8=(sentence.substring(36,39));
+        String s9=(sentence.substring(40,47));
+        System.out.println(s9);
+        System.out.println(s8);
+        System.out.println(s7);
+        System.out.println(s6);
+        System.out.println(s5);
+        System.out.println(s4);
+        System.out.println(s3);
+        System.out.println(s2);
+        System.out.println(s1);
+    }
+}
