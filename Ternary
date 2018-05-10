@@ -1,0 +1,12 @@
+public class Ternary
+{
+    public static void main(String args[])
+    {
+        char person = 'Y';
+        int Yfee= 5;
+        int Nfee = 20;
+        
+        int X = (person == 'N') ?  Yfee : Nfee;
+        System.out.println("The fee is: " + X);
+    }
+}
