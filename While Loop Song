@@ -1,0 +1,25 @@
+public class Song
+{
+    public static void main(String args[])
+    {
+        int x=10;
+        while(x>0)
+        {
+            System.out.println(x + " in a bed and the little one said,");
+            
+            
+            if(x>1)
+            {   
+                System.out.println("'Roll over, roll over'");
+                
+                System.out.println("They all rolled over and one fell out,");
+                
+            }
+                  else
+                  System.out.println("'Alone at last'");
+                  x--;
+                
+            
+        }
+    }
+}
