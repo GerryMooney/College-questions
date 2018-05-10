@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class input1
+{
+    public static void main(String args[])
+    {
+        Scanner scan= new Scanner(System.in);
+        String fstring=new String(" ");
+        fstring=scan.nextLine();
+        int counter=0;
+        for(int i=0; i<fstring.length(); i++)
+        {
+            if(fstring.charAt(i)=='a')
+            {
+                counter++;
+        }
+            }
+            if(counter<=3)
+            {
+                String newfstring=fstring.replace('a','#');
+                System.out.println(newfstring);
+            }
+            else if(counter>3)
+            {
+                String newfstring=fstring.replace('a','@');
+                System.out.println(newfstring);
+            }
+            else
+            {
+                System.out.println(fstring);
+            }
+            
+    }
+}
